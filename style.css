@@ -1,0 +1,92 @@
+
+.grid-container {
+    display: grid;
+    gap: 2px;
+    padding: 2px;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .grid {
+    padding: 20px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'calibri', Courier, monospace;
+  }
+  
+  .kuning {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+    background-color: yellow;
+  }
+  
+  .hitam {
+    grid-column: 2 / span 3;
+    grid-row: 1;
+    background-color: black;
+    color: white;
+  }
+  
+  .hijau {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: green;
+  }
+
+  .coklat {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: brown;
+    color: white;
+  }
+
+  .pink {
+    grid-column: 3;
+    grid-row: 2 / span 2;
+    background-color: pink;
+  }
+
+  .biru {
+    grid-column: 4;
+    grid-row: 2;
+    background-color: blue;
+  }
+
+  .merah {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: red;
+  }
+
+  .putih {
+    grid-column: 2;
+    grid-row: 3;
+    background-color: white;
+  }
+  
+  .ungu {
+    grid-column: 4;
+    grid-row: 3 / span 4;
+    background-color: purple;
+    color: white;
+  }
+  
+  .birutua {
+    grid-column: 1;
+    grid-row: 4 / span 3;
+    background-color: darkblue;
+  }
+
+  .abu {
+    grid-column: 2 / span 2;
+    grid-row: 4 / span 2;
+    background-color: grey;
+  }
+
+  .orange {
+    grid-column: 2 / span 2;
+    grid-row: 6;
+    background-color: orange;
+  }
